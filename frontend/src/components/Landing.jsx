@@ -43,8 +43,6 @@ export default function Landing() {
       <section className="suites-section container">
         <div className="suites-image" role="img" aria-label="Suite preview" />
         <div className="suites-content">
-          <h2 className="suites-title">Suites Crafted for Serenity</h2>
-          <p className="suites-text">Wake to shifting horizons in refined suites featuring floor‑to‑ceiling views, soft textures, and private terraces on select decks.</p>
           {/* <div className="cta-group">
             <button className="cta-secondary">Explore Suites</button>
           </div> */}
@@ -68,7 +66,6 @@ export default function Landing() {
             <div className="experience-media" />
             <div className="experience-body">
               <span className="experience-tag"></span>
-              <h3 className="experience-title">Pink Sands & Dragon Isles</h3>
             </div>
           </div>
           {/* <div className="experience-card">
