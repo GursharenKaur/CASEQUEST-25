@@ -42,11 +42,11 @@ export default function Landing() {
 
       <section className="suites-section container">
         <div className="suites-image" role="img" aria-label="Suite preview" />
-        <div className="suites-content">
-          {/* <div className="cta-group">
+        {/* <div className="suites-content">
+          <div className="cta-group">
             <button className="cta-secondary">Explore Suites</button>
-          </div> */}
-        </div>
+          </div>
+        </div> */}
       </section>
 
       <section className="experiences-section">
