@@ -23,7 +23,7 @@ export default function Landing() {
     <main>
       <HeroParallaxSlider />
 
-      <section className="features-section">
+      {/* <section className="features-section">
         <div className="features-grid">
           <div className="feature-card">
             <h3 className="feature-title">Expeditions</h3>
@@ -38,16 +38,16 @@ export default function Landing() {
             <p className="feature-text">Fine dining, deck lounges, spa treatments, and expert expedition crew.</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="suites-section container">
         <div className="suites-image" role="img" aria-label="Suite preview" />
         <div className="suites-content">
           <h2 className="suites-title">Suites Crafted for Serenity</h2>
           <p className="suites-text">Wake to shifting horizons in refined suites featuring floor‑to‑ceiling views, soft textures, and private terraces on select decks.</p>
-          <div className="cta-group">
+          {/* <div className="cta-group">
             <button className="cta-secondary">Explore Suites</button>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -67,17 +67,17 @@ export default function Landing() {
           <div className="experience-card">
             <div className="experience-media" />
             <div className="experience-body">
-              <span className="experience-tag">Komodo</span>
+              <span className="experience-tag"></span>
               <h3 className="experience-title">Pink Sands & Dragon Isles</h3>
             </div>
           </div>
-          <div className="experience-card">
+          {/* <div className="experience-card">
             <div className="experience-media" />
             <div className="experience-body">
               <span className="experience-tag">Banda Sea</span>
               <h3 className="experience-title">Spice Route & Blue Pelagics</h3>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </main>
