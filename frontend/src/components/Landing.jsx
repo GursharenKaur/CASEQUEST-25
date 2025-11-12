@@ -41,7 +41,7 @@ export default function Landing() {
       </section> */}
 
       <section className="suites-section container">
-        {/* <div className="suites-image" role="img" aria-label="Suite preview" /> */}
+        <div className="suites-image" role="img" aria-label="Suite preview" />
         <div className="suites-content">
           {/* <div className="cta-group">
             <button className="cta-secondary">Explore Suites</button>
