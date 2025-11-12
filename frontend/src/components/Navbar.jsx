@@ -37,7 +37,8 @@ const handleSubmit = async (e) => {
   }
 
   try {
-    const response = await fetch("https://casequest-25.onrender.com", {
+    const API_BASE = import.meta.env.VITE_API_BASE_URL || "https://casequest-25.onrender.com";
+    const response = await fetch(`${API_BASE}/send-feedback`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name, email, message }),
