@@ -51,23 +51,23 @@ export default function Landing() {
 
       <section className="experiences-section">
         <div className="container experiences-grid">
-          <div className="experience-card">
-            {/* <video
+          {/* <div className="experience-card">
+            <video
               className="experience-media"
               src="/videos/aftermovie1.mp4"
               autoPlay
               muted
               loop
               playsInline
-            /> */}
+            />
           
-          </div>
-          <div className="experience-card">
+          </div> */}
+          {/* <div className="experience-card">
             <div className="experience-media" />
             <div className="experience-body">
               <span className="experience-tag"></span>
             </div>
-          </div>
+          </div> */}
           {/* <div className="experience-card">
             <div className="experience-media" />
             <div className="experience-body">
