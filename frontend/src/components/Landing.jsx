@@ -12,7 +12,7 @@ export default function Landing() {
     // Subsequent sections gentle fade-in while scrolling past
     gsap.from(".feature-card", { opacity: 0, y: 18, duration: 0.8, stagger: 0.1, ease: "power2.out", scrollTrigger: { trigger: ".features-section", start: "top 80%" } });
     gsap.from(".suites-section", { opacity: 0, y: 24, duration: 0.9, ease: "power2.out", scrollTrigger: { trigger: ".suites-section", start: "top 80%" } });
-    gsap.from(".experience-card", { opacity: 0, y: 20, duration: 0.8, stagger: 0.1, ease: "power2.out", scrollTrigger: { trigger: ".experiences-section", start: "top 80%" } });
+    // gsap.from(".experience-card", { opacity: 0, y: 20, duration: 0.8, stagger: 0.1, ease: "power2.out", scrollTrigger: { trigger: ".experiences-section", start: "top 80%" } });
   }, []);
 
   const handleRegister = () => {
@@ -52,14 +52,14 @@ export default function Landing() {
       <section className="experiences-section">
         <div className="container experiences-grid">
           <div className="experience-card">
-            <video
+            {/* <video
               className="experience-media"
               src="/videos/aftermovie1.mp4"
               autoPlay
               muted
               loop
               playsInline
-            />
+            /> */}
           
           </div>
           <div className="experience-card">
